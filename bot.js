@@ -11,16 +11,8 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("sendak")) {
-               message.channel.send("I punched Sendak!")
-  	}
-
-});
-
-client.on('message', message => {
-     if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("Yeah, apparently after I emerged from a coma and shot his arm off.")) {
-               message.channel.send("We had a bonding moment. I cradled you in my arms!")
+     if(message.content.toLowerCase().includes("krolia")) {
+               message.channel.send("My... mom?")
   	}
 
 });
